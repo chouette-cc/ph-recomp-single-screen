@@ -1,9 +1,9 @@
 {
   "id": "com.phrecomp.single-screen",
   "name": "Single Screen (Modern HUD)",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "Chouette",
-  "description": "Play Phantom Hourglass on one screen with a sleek minimap PiP, automatic clean map crop, and customizable top-screen peek.",
+  "description": "Flexible single-screen & side-by-side layouts, 8-way PiP placement with fine offsets, full click-to-bind hotkeys, and automatic top-screen NPC dialogue pop-up.",
   "runtime": "ph.lua@1.0",
   "entry": "res/main.lua",
   "priority": 100,

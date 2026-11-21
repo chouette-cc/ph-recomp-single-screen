@@ -5,30 +5,38 @@
 
 # Single Screen (Modern HUD) — Phantom Hourglass Recomp Mod
 
-Play *The Legend of Zelda: Phantom Hourglass* on **one screen** with a sleek, translucent Picture-in-Picture (PiP) minimap overlay, automatic clean map border cropping, optional dual-screen boss layouts, and instant click-to-bind top-screen peeking.
+Play *The Legend of Zelda: Phantom Hourglass* on **one screen** or in a **fully customizable Side-by-Side layout**, with 8-way Picture-in-Picture (PiP) placement + X/Y offsets, full click-to-bind hotkeys, automatic top-screen NPC speech bubble pop-up, and **zero clutter text** drawn on screen.
 
 Cross-platform **Lua 5.4** mod — works on both **PC (Windows/Linux)** and **Android**, for both USA (`AZEE`) and Europe (`AZEP`) ROMs.
 
-## Features
+## Features (v2.0.0)
 
-- **Modern Single-Screen Layout**: Primary touch gameplay screen in full-screen with a translucent antique-gold framed top-screen minimap in the corner.
-- **Automatic Clean Map Crop**: Strips the decorative DS parchment border during exploration and automatically disables cropping during screen swaps, menus, titles, or boss fights.
-- **Flicker-Free Startup & Dual-3D Handling**: Detects *Phantom Hourglass*'s 60 Hz dual-3D screen alternation (e.g., Title Screen / intro) and keeps both screens rock-solid without flickering in both 4:3 and 16:9 Widescreen.
-- **Customizable Peek Hotkey**: Hold your bound keyboard key, gamepad button, or mouse button (`V` by default — click to rebind in `F1 → Mods`) to smoothly expand the top screen centered at 74%.
-- **Optional Dual-Screen Boss Layouts**: Automatically switch to **Auto Split** (side-by-side in landscape, stacked in portrait) or **Enlarge PiP** during dual-screen boss battles (Cyclok, Blaaz, Crayk, Gleeok, Dongorongo, Eox, Cubus Sisters, Bellum 1/2/3).
-- **Live Configuration (`F1 → Mods`)**: Tweak every option live without restarting the game:
-  - **Display Mode**: `Modern PiP` *(default)*, `Minimal (Peek)`, `Side-by-Side`, `Top Only`, `Vanilla (Off)`
-  - **Minimap Corner**: `Top-Right` *(default)*, `Top-Left`, `Bottom-Right`, `Bottom-Left`
-  - **Minimap Size (%)**: `10% – 48%` *(default: `20%`)*
-  - **Minimap Opacity**: `0.25 – 1.00` *(default: `0.83`)*
-  - **Dual-Screen Boss**: `Auto Split`, `Enlarge PiP`, `Off` *(default)*
-  - **Tap Minimap**: `Cycle Size`, `Toggle Hide`, `Click-Through` *(default)*
-  - **Peek Hotkey**: Click to assign any keyboard key, gamepad button, or mouse button *(default: `V`)*
+- **Modern PiP (Overlaid Mode)**: Full-screen primary touch gameplay with a translucent antique-gold framed top screen:
+  - **8 anchor positions**: `Top-Right` *(default)*, `Top-Center`, `Top-Left`, `Mid-Right`, `Mid-Left`, `Bottom-Right`, `Bottom-Center`, `Bottom-Left`.
+  - **Fine X / Y Offsets**: `-25%` to `+25%` for pixel-perfect placement anywhere on screen.
+  - **Size & Opacity**: `10% – 50%` *(default: `20%`)*, `0.25 – 1.00` *(default: `0.83`)*.
+  - **Tap PiP Action**: `Cycle Size`, `Toggle Hide`, `Click-Through` *(default)*.
+- **Customizable Side-by-Side / Stacked Mode (Non-Overlapping)**:
+  - **Split Placement**: `Main Left / Top Right`, `Top Left / Main Right`, `Top Above Main`, `Main Above Top`.
+  - **Split Main (%)**: `40% – 80%` *(default: `62%`)* to resize both screens freely.
+  - **Split Align**: `Center`, `Top / Left`, `Bottom / Right`.
+  - **Split Gap (px)**: `0 – 24 px` *(default: `6 px`)*.
+- **Automatic Top-Screen NPC Dialogue Pop-Up**:
+  - Detects when an NPC speaks on the bottom of the Top Screen (USA `AZEE` & Europe `AZEP`) and smoothly pops ONLY the speech bubble cleanly at the top-center of your primary screen while the secondary screen is hidden or minimized (`Hidden / Small` *(default)*, `When Hidden`, `Off`).
+  - Supports **HD Text** seamlessly when enabled in the recomp.
+- **Full Click-to-Bind Hotkeys** (Keyboard, Gamepad `Pad:*`, or Mouse buttons):
+  - **Peek Top (Hold)** *(default: `V`)* — smoothly expands the top screen centered (no overlay text).
+  - **Toggle Hide Top** *(default: `H`)* — show/hide the secondary screen in any mode.
+  - **Shrink Top** / **Grow Top** — dynamically decrease/increase PiP size or Side-by-Side split ratio.
+  - **Switch Mode** — cycle `Modern PiP` → `Side-by-Side` → `Hidden (Single)`.
+- **Zero On-Screen Mod Text**: No labels, titles, or corner text drawn over the game.
+- **Flicker-Free Startup & Dual-3D Handling**: Debounces 60 Hz dual-3D screen swaps (Title Screen / intro) cleanly in 4:3 and 16:9 Widescreen.
+- **Optional Dual-Screen Boss Layouts**: `Auto Split`, `Enlarge PiP`, or `Off` *(default)*.
 
 ## Installation
 
 ### Recommended — Built-in Mod Browser (1-Click)
-- **PC**: Open the in-game menu (`F1` / `Esc`) → **Mods** → **Browse Online** → click **Install** on *Single Screen (Modern HUD)*.
+- **PC**: Open the in-game menu (`F1` / `Esc`) → **Mods** → **Browse Online** → click **Install** (or **Update**) on *Single Screen (Modern HUD)*.
 - **Android**: Open the launcher → **Mods** → **Browse Online…** → select *Single Screen (Modern HUD)* → **Install**.
 
 ### Manual Installation
