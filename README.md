@@ -1,3 +1,8 @@
+<img width="1917" height="1050" alt="image" src="https://github.com/user-attachments/assets/11149fc0-d232-45e5-aa18-a99d07440d60" />
+<img width="1917" height="1050" alt="image" src="https://github.com/user-attachments/assets/2b6d260f-7b96-4b49-bfc6-ed6e21de6b1d" />
+
+
+
 # Single Screen (Modern HUD) — Phantom Hourglass Recomp Mod
 
 Play *The Legend of Zelda: Phantom Hourglass* on **one screen** with a sleek, translucent Picture-in-Picture (PiP) minimap overlay, automatic clean map border cropping, optional dual-screen boss layouts, and instant click-to-bind top-screen peeking.
